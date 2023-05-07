@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>  Admin Book search </title>
+        <meta content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no" name="viewport">
+        <meta name="description content=" "="">
+    </head>
+    <style>
+       body{
+           background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf5Kvn0qWEsMC2bpRt5u8U6uBWPpdj5qdVHQ&usqp=CAU);
+           background-repeat: repeat-x;
+           background-size: 105px 261px ;
+           
+       }
+        .oneclass{
+            font-size: 60px;
+            font-weight: bold;
+            font-style: oblique;
+            margin-left: 20px;
+            text-shadow: 3px 4px red;
+        }
+        .twoclass{
+            font-size: 60px;
+            font-weight: bold;
+            font-style: oblique;
+            margin-left: 50px;
+            text-shadow: 3px 4px red;
+            
+        }
+        .navclass li{
+        float: left;
+        list-style: none;
+        border: 2px solid red;
+        background-color: rgb(212, 212, 230);
+        margin-left: 69px;
+        font-size: 40px;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px 3px rgb(233, 144, 144);
+        }
+        .navclass li a{
+            text-decoration: none;
+            color: tomato;
+            }
+            .ulclass li a:hover {
+                color: rgb(113, 39, 197);
+            }
+            .ulclass li a:visited{
+                color: rgb(63, 235, 57);
+            }
+            .ulclass li a:active {
+            color:yellow;
+            text-decoration: underline; 
+            } 
+        .pclass{
+            font-size: 15px;
+            font-weight: bold;
+            font-style: oblique; 
+        }
+        .h1class{
+           margin-top: 110px;
+           margin-left: 25;
+        }
+        .formclass{
+          margin-left: 550px ;
+        }
+        .buttonclass{
+            margin-top: 15px;
+            margin-left: 60px;
+            background-color: rgb(226, 89, 89);
+        }
+        .divclass{
+            margin-top: 1px ;
+        }
+        .formclass{
+            margin-top: 100px;
+        }
+        .ulclass{
+            margin-left: 420px;
+        }
+    </style>
+    <body>
+        <h1 class="oneclass"> Welcome</h1>
+        <h1 class="twoclass"> To Admin page</h1>
+        <hr>
+       <nav class="navclass">
+           <ul class="ulclass">
+               <li> <a href="#"> Book search</a> </li>
+           </ul>
+       </nav>
+        </header>
+       <form class="formclass" action="page5.php" method="POST">
+           
+           <div class="divclass">
+        Book ID: <br><input type="text" name="book" id="book" placeholder="  write book id ">
+          </div>
+          <div>
+          <button class="buttonclass">Search</button>
+          </div>
+       </form>
+    </body>
+</html>

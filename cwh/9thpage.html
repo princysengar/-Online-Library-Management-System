@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title> Student Book Search </title>
+        <meta content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no" name="viewport">
+        <meta name="description content=" "="">
+    </head>
+    <style>
+       body{
+           background-image: url(https://rogerpielkejr.files.wordpress.com/2015/07/rs4726_480537825-lowdark4.jpg);
+           background-repeat: repeat-x;
+           background-size:1499px 305px ;
+           
+       }
+        .oneclass{
+            font-size: 60px;
+            font-weight: bold;
+            font-style: oblique;
+            margin-left: 20px;
+            text-shadow: 3px 4px rgb(228, 54, 54);
+        }
+        .twoclass{
+            font-size: 60px;
+            font-weight: bold;
+            font-style: oblique;
+            margin-left: 50px;
+            text-shadow: 3px 4px red;
+            
+        }
+        .navclass li{
+        float: left;
+        list-style: none;
+        border: 2px solid rgb(17, 17, 17);
+        background-color: rgb(212, 212, 230);
+        margin-left: 109px;
+        font-size: 40px;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px 3px rgb(46, 45, 48);
+        }
+        .navclass li a{
+            text-decoration: none;
+            color: rgb(42, 42, 44);
+            }
+            .ulclass li a:hover {
+                color: rgb(114, 114, 231);
+            }
+            .ulclass li a:visited{
+                color: rgb(35, 37, 35);
+            }
+            .ulclass li a:active {
+            color:yellow;
+            text-decoration: underline; 
+            } 
+        .pclass{
+            font-size: 15px;
+            font-weight: bold;
+            font-style: oblique; 
+        }
+        .h1class{
+           margin-top: 90px;
+           margin-left: 35px;
+        }
+        .formclass{
+          margin-left: 550px ;
+        }
+        .buttonclass{
+            margin-top: 10px;
+            margin-left: 70px;
+            background-color: rgb(130, 146, 240);
+        }
+        .divclass{
+            margin-left: 20px;
+            margin-top: 150px;
+        }
+        .ulclass{
+            margin-top: 50px;
+            margin-left: 400px;
+        }
+    </style>
+    <body>
+        <h1 class="oneclass"> Welcome</h1>
+        <h1 class="twoclass"> To Student page</h1>
+        <br>
+        <br>
+        <hr>
+       <nav class="navclass">
+           <ul class="ulclass">
+               <li> <a href=""> Book search</a> </li>
+           </ul>
+       </nav>
+        </header>
+        <form class="formclass" action="9thpage.php" method="POST"> 
+            <div class="divclass">
+          Book Name: <br><input type="text" name="book" id="book" placeholder="  write book name ">
+           </div>
+           <div>
+             Author Name: <br><input type="text" name="author" id="author" placeholder=" write author name ">
+              </div>
+              <div>
+                <button class="buttonclass"> search  </button>
+                </div>
+        </form>
+    </body>
+</html>
